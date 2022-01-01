@@ -1,6 +1,6 @@
 # Firsty, We have to connect the Python with MySQL.
 import mysql.connector as star
-mycon=star.connect(host="localhost", user="root", password="root1234", database="RiturajPro12")
+mycon=star.connect(host="localhost", user="root", password="", database="")
 cursor=mycon.cursor()
 choice="Y"
 # Now, We create a Menu for the Hotel Management.
